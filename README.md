@@ -1,2 +1,8 @@
-# Laboratorio-2-procesamiento-digital-de-se-ales-eog-
-Estudiantes: Adriana Alarcón, Yuliana Clavijo 
+# Laboratorio 2 procesamiento digital de señales eog
+
+Docente: Carolina Corredor
+Participantes:
+
+Adriana Valentina Alarcon Ramirez 
+
+Liseth Yuliana Clavijo Mesa
