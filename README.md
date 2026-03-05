@@ -72,15 +72,14 @@ mano)
 2. Encuentre la representación gráfica y secuencial (a mano).
 
    
-# Adriana 
+### Adriana 
 ℎ[𝑛]= {5,6,0,0,8,5,0}
 
 𝑥[𝑛]= {1,0,7,6,2,4,2,2,6,3}
 
 
-# Yuliana 
+### Yuliana 
 ℎ[𝑛]= {5,6,0,0,8,6,2}
-
 
 𝑥[𝑛]= {1,0,7,3,5,9,9,5,7,0}
 
