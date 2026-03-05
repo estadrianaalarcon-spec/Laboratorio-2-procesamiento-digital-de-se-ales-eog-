@@ -278,7 +278,28 @@ print("Mediana=",mediana)
 print("Desviación estándar=",desviacion)
 print("Máximo=",maximo)
 print("Mínimo=",minimo)
+
 ```
+
+La señal analizada corresponde a una señal aleatoria y aperiódica, ya que proviene de una medición biológica y no presenta repetición exacta en el tiempo. Además, es digital, puesto que fue adquirida mediante un sistema de adquisición de datos y se encuentra representada mediante muestras discretas.
+
+Análisis en el dominio de la frecuencia
+Para analizar el contenido frecuencial de la señal se aplicó la Transformada Rápida de Fourier (FFT), esta herramienta permite transformar la señal desde el dominio del tiempo al dominio de la frecuencia, revelando las componentes frecuenciales presentes en la señal.
+
+A partir de la FFT se obtuvieron:
+Espectro de magnitud de la señal, que muestra las frecuencias presentes, densidad espectral de potencia (PSD) que describe cómo se distribuye la energía de la señal en función de la frecuencia.
+
+La PSD se representó en escala logarítmica (dB) con el fin de visualizar con mayor claridad tanto las componentes de alta energía como aquellas de menor amplitud.
+
+Adicionalmente se calcularon estadísticos espectrales, tales como:
+
+Frecuencia media, que representa el centro de gravedad del espectro.
+
+Frecuencia mediana, que divide la distribución de energía espectral en dos partes iguales.
+
+Desviación estándar en frecuencia, que indica la dispersión de las componentes frecuenciales.
+
+Finalmente, se representó un histograma de la potencia espectral en escala logarítmica, lo cual permite observar la distribución de la energía de las diferentes componentes frecuenciales presentes en la señal.
 
 
 
