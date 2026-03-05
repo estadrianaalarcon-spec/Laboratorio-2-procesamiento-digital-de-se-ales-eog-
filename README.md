@@ -83,6 +83,19 @@ mano)
 ![capture_temp](https://github.com/user-attachments/assets/f06ae621-53bd-4495-83b7-fae9c2bcb9b0)
 
 
+convolución h[n] * x[n]
+
+![capture_temp](https://github.com/user-attachments/assets/d8eaddb2-01da-46cd-9a8f-87ef5543fe27)
+
+
+
+
+![capture_temp](https://github.com/user-attachments/assets/b056d112-3a50-4774-a014-e6451cd7088e)
+
+
+
+
+
 
 ### Yuliana 
 ℎ[𝑛]= {5,6,0,0,8,6,2}
