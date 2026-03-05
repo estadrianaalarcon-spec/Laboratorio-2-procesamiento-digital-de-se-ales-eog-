@@ -371,6 +371,19 @@ plt.show()
 
 <img width="730" height="469" alt="image" src="https://github.com/user-attachments/assets/b402ee92-a547-4814-aa2f-ebcc682a697b" />
 
+# Preguntas para la discusión 
+
+1. ¿Qué utilidad poseen herramientas como la convolución y la correlación en áreas como procesamiento de imágenes?
+
+Herramientas como la convolución y la correlación son fundamentales en el procesamineto de imágenes porque permiten analizar, modificar y extraer informacion relevante de una imagen digital.
+
+la convolución se utiliza principalmemte para aplicar filtros sobre las imágenes, mediante esta operación se pueden realizar tareas como suavizar ruido, resaltar bordes, detectar contornos o mejorrar detalles, esto se logra aplicando un "mascara" que se desplaza ór toda la imagen y modifica valores de los píxeles segú una operación de suma ponderada.
+la correlación se emplea para medir la similitud entre dos imágenes o entre una imagen y un patrón específico, esto es util en aplicaciones como reconocimiento de objetos , seguiiento de patroness, alineación de imágenes y detección de caracteristicas.
+
+En conjunto estas herramientas permiten mejorar la calidad de las imágenes y extraer información importante para diferentes aplicaciones, como el diagnóstico médico mediante imágenes biomédicas.
+
+# Referencias biblioraficas 
+Jena, S. K. (2025). Fourier, Laplace, and the tangled love affair with transforms: The art of signal synthesis and analysis. Springer
 
 
 
