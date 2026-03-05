@@ -105,6 +105,8 @@ convolución h[n] * x[n]
 
 ![capture_temp](https://github.com/user-attachments/assets/679807bf-7484-4e67-b6f8-f3ed8feabbea)
 
+convolución h[n] * x[n]
+
 
 
 3. Encuentre la señal 𝑦[𝑛] resultante de la convolución usando Python.
