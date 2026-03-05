@@ -261,6 +261,7 @@ plt.show()
 Caracterización de la señal en el dominio del tiempo, para describir el comportamiento de la señal en el dominio temporal se calcularon los principales estadisticos descriptivos: media, mediana, desviación estandar, valor máximo y valor mínimo. Estos parametros permiten caracterizar la distribución de amplitudes y la variabilidad de la señal biológica analizada en este caso EOG.
 
 ```phyton
+
 import numpy as np
 import pandas as pd
 data = pd.read_csv("Medicion_DAQ_27.csv")
