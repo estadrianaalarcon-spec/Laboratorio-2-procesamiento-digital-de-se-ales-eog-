@@ -224,6 +224,64 @@ plt.show()
 
 <img width="724" height="342" alt="image" src="https://github.com/user-attachments/assets/b0c0cbdc-c714-4a21-af6b-6d13fc333800" />
 
+## PARTE B 
+
+## PARTE C
+
+A partir de la señal adquirida mediante el sistema de adquisición de datos, se determio el periodo de muestreo Ts a partir de la diferencia entre muestras consecutivas de tiempo, posterior a esto se calcula la frecuencia de muestres Fs como Fs=1/Ts y  la frecuancia de Nyquist que corresponde a FN= Fs/2, la frecuencia de muestreo utilizada para esta práctica sera cuatro veces la frecuencia de Nyquist fs​=4fN esto garantiza que la seal sea muestreada con suficiente resolución temporal, evitando pérdidas de infromación en el proceso de digitalización.
+
+```python
+
+import pandas as pd
+data = pd.read_csv("Medicion_DAQ_27.csv")
+data.head()
+import numpy as np
+#columna de tiempo
+t=data["Tiempo (s)"]
+#Ts
+Ts=np.mean(np.diff(t))
+print("Periodo de muestreo Ts=",Ts)
+fs=1/Ts
+print("Frecuencia de muestreo fs=",fs,"Hz")
+f_nyquist=fs/2
+print("Frecuencia de Nyquist=",f_nyquist,"Hz")
+
+import matplotlib.pyplot as plt
+t=data["Tiempo (s)"]
+plt.figure()
+plt.plot(t,x)
+plt.title("Señal eog medida")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Voltaje (V)")
+plt.show()
+```
+
+<img width="714" height="554" alt="image" src="https://github.com/user-attachments/assets/edde8e9b-b778-4ec7-b2ab-5d6288f762ca" />
+
+Caracterización de la señal en el dominio del tiempo, para describir el comportamiento de la señal en el dominio temporal se calcularon los principales estadisticos descriptivos: media, mediana, desviación estandar, valor máximo y valor mínimo. Estos parametros permiten caracterizar la distribución de amplitudes y la variabilidad de la señal biológica analizada en este caso EOG.
+
+```phyton
+import numpy as np
+import pandas as pd
+data = pd.read_csv("Medicion_DAQ_27.csv")
+x=data["Voltaje (V)"]
+# Estadísticos
+media=np.mean(x)
+mediana=np.median(x)
+desviacion=np.std(x)
+maximo=np.max(x)
+minimo=np.min(x)
+
+print("Media=",media)
+print("Mediana=",mediana)
+print("Desviación estándar=",desviacion)
+print("Máximo=",maximo)
+print("Mínimo=",minimo)
+```
+
+
+
+​
 
 
 
