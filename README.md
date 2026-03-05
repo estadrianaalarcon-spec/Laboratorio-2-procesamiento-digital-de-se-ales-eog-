@@ -174,6 +174,63 @@ plt.show()
 
 <img width="722" height="342" alt="image" src="https://github.com/user-attachments/assets/66eef21b-f2b9-4791-a1f6-5eef5a199d84" />
 
+### Yuliana 
+
+
+Para la convolución de las señales h(n) * x(n) de Yuliana se realiza el mismo proceso y codigo.
+
+```python
+#Señal h(n) adriana
+x = [0, 1, 2, 3, 4, 5, 6]
+h = [5, 6, 0, 0, 8, 6, 2]
+
+plt.stem(x,h)
+plt.title('Grafica señal h(n)', fontsize=14, fontweight='bold')
+plt.xlabel('Índice discreto n', fontsize=12)
+plt.ylabel('Amplitud de h[n]', fontsize=12)
+Se grafica la señal de salida  𝑦[𝑛]
+```
+
+<img width="715" height="558" alt="image" src="https://github.com/user-attachments/assets/895bcd31-cba5-4372-a3a7-03ab92d6bea3" />
+
+```python
+#Señal x(n) Adriana 
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+h = [1, 0, 7, 3, 5, 9, 9, 5, 7, 0]
+
+plt.stem(x,h)
+plt.title('Grafica señal x(n)', fontsize=14, fontweight='bold')
+plt.xlabel('Índice discreto n', fontsize=12)
+plt.ylabel('Amplitud de x[n]', fontsize=12)
+```
+<img width="713" height="557" alt="image" src="https://github.com/user-attachments/assets/fcc2eab7-f728-4d40-9015-d2ed7ae35182" />
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+# convolución señal Yuliana 
+
+x = np.array([1,0,7,3,5,9,9,5,7,0])
+h = np.array([5,6,0,0,8,6,2])
+y=np.convolve(x,h)
+plt.figure(figsize=(10,4))
+plt.stem(y)
+plt.title('Convolución de las señales x[n] y h[n]', fontsize=14, fontweight='bold')
+plt.xlabel('Índice discreto n', fontsize=12)
+plt.ylabel('Amplitud de y[n]', fontsize=12)
+plt.grid(True)
+plt.show()
+```
+
+<img width="724" height="342" alt="image" src="https://github.com/user-attachments/assets/b0c0cbdc-c714-4a21-af6b-6d13fc333800" />
+
+
+
+
+
+
+
+
 
 
 
