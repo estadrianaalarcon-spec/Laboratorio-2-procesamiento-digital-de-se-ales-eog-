@@ -75,9 +75,13 @@ mano)
 ### Adriana 
 ℎ[𝑛]= {5,6,0,0,8,5,0}
 
+![capture_temp](https://github.com/user-attachments/assets/181fce05-2f77-4f63-9b33-9dcf20f8b30b)
+
+
 𝑥[𝑛]= {1,0,7,6,2,4,2,2,6,3}
 
-![capture_temp](https://github.com/user-attachments/assets/f56a3044-71c6-4f4e-9e64-b88ef1f7fcd3)
+![capture_temp](https://github.com/user-attachments/assets/f06ae621-53bd-4495-83b7-fae9c2bcb9b0)
+
 
 
 ### Yuliana 
